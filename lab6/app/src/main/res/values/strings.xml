@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">MyClock</string>
+    <string  name ="app_name"  	>My Application  	</string>
+
+    <string  name ="hello_world"  	>Hello world!  	</string>
+    <string  name ="action_settings"  	>Settings  	</string>
+    <string  name ="login"  	>User Login  	</string>
+    <!-- define your strings here -->
 </resources>

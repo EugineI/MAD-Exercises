@@ -1,39 +1,62 @@
 <?xml version ="1.0" encoding ="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation ="vertical"
-    android:layout_width ="match_parent"
-    android:layout_height ="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
     <Button
-        android:id ="@+id/buton1"
-        android:layout_width ="wrap_content"
+        android:id  ="@+id/buton1"
+        android:layout_width="wrap_content"
         android:layout_height ="wrap_content"
-        android:text ="Button" />
+        android:text  ="Button"  	/>
+
     <TextView
-        android:id ="@+id/textView1"
-        android:layout_width ="wrap_content"
+        android:id  ="@+id/textView1"
+        android:layout_width="wrap_content"
         android:layout_height ="wrap_content"
-        android:text ="Sample Text"
-        android:layout_marginTop ="15sp"
-        android:textSize ="30sp"/>
+        android:text ="sample Text"
+        android:layout_marginTop ="15dp"
+        android:textSize  	="30dp"  	/>
+
     <RelativeLayout
         android:layout_width ="match_parent"
-        android:layout_height ="match_parent" >
+        android:layout_height ="match_parent">
 
         <EditText
-            android:id="@+id/editTextName"
+            android:id  ="@+id/editTextName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint ="First Name"
-            android:textSize="20sp" />
+            android:layout_height ="wrap_content"
+            android:hint  ="First Name" />
 
         <EditText
-            android:id="@+id/editTextLastName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="" />
+            android:id  ="@+id/editTextLastName"
+            android:layout_width ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:hint  ="Last Name"/>
+        <TextView
+            android:id ="@+id/firstTextView"
+            android:layout_width ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_centerHorizontal ="true"
+            android:layout_margin ="20dp"
+            android:padding ="10dp"
+            android:text ="First Text View"
+            android:textColor="@color/white"
+            android:textSize ="20sp"
+            android:textStyle ="bold"/>
+        <TextView
+            android:id ="@+id/secondTextView"
+            android:layout_width ="wrap_content"
+            android:layout_height ="wrap_content"
+            android:layout_below ="@+id/firstTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_margin ="20dp"
+            android:padding ="10dp"
+            android:text="Second Text View"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle  	="bold"/>
     </RelativeLayout>
 </LinearLayout>
